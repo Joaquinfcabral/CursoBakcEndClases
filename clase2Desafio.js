@@ -48,15 +48,14 @@ class ProductManager {
 
 const product = new ProductManager()
 
-console.log("Primer llamado", product.getProducts());
+console.log("Inicio del ProductManager", product.getProducts());
 
 product.addProduct("Lapicera", "De trazo fino, hecha de metal", 4, "Image", 04, 100)
 product.addProduct("Lápiz", "De trazo grueso, hecha de grafito", 2, "Image", 09, 100)
 product.addProduct("Cartuchera", "De Marvel, hecha de plástico con tela", 10, "Image", 08, 100)
-product.addProduct("Lapicera", "De trazo fino, hecha de metal", 4, "Image", 04, 100)
 product.addProduct("Cuaderno", "De tapa dura, con diseño de superheroes", 8, "Image", 06, 100)
 
 product.getProductById(3)
-
-
 console.log(product.getProducts());
+
+
